@@ -34,7 +34,7 @@ const App = () => {
         <div>
             {/* navbar shopping cart totalItems retrieves data from API */}
             <Navbar totalItems={cart.total_items} />
-            <Products products={products} onAddToCart={handleAddToCart} />
+            {/* <Products products={products} onAddToCart={handleAddToCart} /> */}
             <Cart cart={cart} />
         </div>
     )
